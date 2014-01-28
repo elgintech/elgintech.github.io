@@ -1,7 +1,7 @@
 div.home-image {
-  background: url('https://djtqzd3lvf9o2.cloudfront.net/images/teacher-girl.jpg') right center no-repeat;
+  background: url('file://localhost/Users/jameswilliamiii/rails_projects/etc_landing_page/img/loft.jpg') right center no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 500px;
   text-align: center;
   position:relative;
 }
@@ -25,7 +25,7 @@ div.home-image {
 }
 .main-points {
   background-color: #5A557E;
-  padding: 10px;
+  padding: 20px;
 }
 .main-points .icon {
   margin: 20px 0;
@@ -36,7 +36,48 @@ div.home-image {
   text-transform: uppercase;
   margin: 15px 0 0;
 }
+.detailed-points {
+  padding:50px 0;
+  text-align: center;
+}
+.detailed-points h2 {
+  margin-bottom: 30px;
+  color:#5A557E;
+}
+.detailed-points i {
+  margin-right: 7px;
+}
 .white {
+  color:white;
+}
+.center {
+  text-align: center;
+}
+.button.cta {
+  padding-top: 1.0rem;
+  padding-right: 2.0rem;
+  padding-bottom: 1.0rem;
+  padding-left: 2.0rem;
+  text-transform: uppercase;
+}
+.members {
+  padding:50px 0;
+  background-color: #5A557E;
+  text-align: center;
+}
+.members h3 {
+  color:white;
+  margin-bottom: 30px;
+}
+.members img {
+  max-height:45px;
+}
+.email-form {
+  padding:50px 0;
+}
+footer {
+  min-height: 200px;
+  background-color: #333;
   color:white;
 }
 
