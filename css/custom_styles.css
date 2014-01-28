@@ -1,0 +1,19 @@
+div.home-image {
+  background: url('https://djtqzd3lvf9o2.cloudfront.net/images/teacher-girl.jpg') right center no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+.uvp {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 40em) {
+  div.home-image {
+    background: url('https://djtqzd3lvf9o2.cloudfront.net/images/teacher-girl.jpg') left top no-repeat;
+    height: 400px;
+    background-size: cover;
+  }
+}
