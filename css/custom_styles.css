@@ -97,10 +97,70 @@ div.home-image {
 .email-form h3 {
   margin-bottom: 30px;
 }
+.meetup {
+  text-align: center;
+}
+.meetup img {
+  max-width: 150px;
+  margin-top: 20px;
+}
+.connect {
+  background-color: #5A557E;
+  text-align: center;
+  padding:50px 0;
+}
+.connect h3 {
+  margin-bottom: 30px
+}
+.connect a {
+  color:white;
+}
+.connect a:hover .fa-twitter-square{
+  -webkit-transition: color 300ms ease-in;
+  -moz-transition: color 300ms ease-in;
+  -ms-transition: color 300ms ease-in;
+  -o-transition: color 300ms ease-in;
+  transition: color 300ms ease-in;
+  color:#55ACEE;
+}
+.connect a:hover .fa-facebook-square{
+  -webkit-transition: color 300ms ease-in;
+  -moz-transition: color 300ms ease-in;
+  -ms-transition: color 300ms ease-in;
+  -o-transition: color 300ms ease-in;
+  transition: color 300ms ease-in;
+  color:#497CE7;
+}
+.connect a:hover .fa-google-plus-square{
+  -webkit-transition: color 300ms ease-in;
+  -moz-transition: color 300ms ease-in;
+  -ms-transition: color 300ms ease-in;
+  -o-transition: color 300ms ease-in;
+  transition: color 300ms ease-in;
+  color:#dd4b39;
+}
 footer {
-  min-height: 200px;
+  padding:50px 0;
   background-color: #333;
   color:white;
+}
+footer a {
+  color:#BBB2FF;
+}
+footer a:hover {
+  color:#BBB2FF;
+  text-decoration: underline;
+}
+footer h5.subheader {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #BBB;
+}
+.copyright {
+  color:#BBB;
+}
+.no-bullet.nav {
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 40em) {

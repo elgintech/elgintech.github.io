@@ -36,3 +36,6 @@ height: 75px;
 line-height: 75px;
 font-size: 1.0625rem;
 }
+.vcard {
+  border:none;
+}
