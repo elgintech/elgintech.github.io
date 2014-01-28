@@ -165,7 +165,7 @@ footer h5.subheader {
 
 @media only screen and (max-width: 40em) {
   div.home-image {
-    background: url('/img/loft.jpg') left top no-repeat;
+    background: url('../img/loft.jpg') left top no-repeat;
     height: 450px;
     background-size: cover;
   }
