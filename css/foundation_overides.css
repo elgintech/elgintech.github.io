@@ -1,0 +1,4 @@
+.contain-to-grid {
+  opacity:0.96;
+  filter:alpha(opacity=96); /* For IE8 and earlier */;
+}
