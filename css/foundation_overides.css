@@ -2,3 +2,27 @@
   opacity:0.96;
   filter:alpha(opacity=96); /* For IE8 and earlier */;
 }
+.top-bar {
+overflow: hidden;
+height: 75px;
+line-height: 75px;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+line-height: 75px;
+}
+.top-bar-section ul li > a {
+font-size: 0.8125rem;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  color:#BBB2FF;
+
+}
+.top-bar .name {
+height: 75px;
+}
+.top-bar .name h1 {
+line-height: 75px;
+font-size: 1.0625rem;
+}
