@@ -1,5 +1,5 @@
 div.home-image {
-  background: url('file://localhost/Users/jameswilliamiii/rails_projects/etc_landing_page/img/loft.jpg') right center no-repeat;
+  background: url('/img/loft.jpg') right center no-repeat;
   background-size: cover;
   height: 500px;
   text-align: center;
@@ -81,7 +81,7 @@ div.home-image {
 }
 .members {
   padding:50px 0;
-  background: url('file://localhost/Users/jameswilliamiii/rails_projects/etc_landing_page/img/brick_wall.jpg') center center no-repeat;
+  background: url('/img/brick_wall.jpg') center center no-repeat;
   text-align: center;
 }
 .members h3 {
