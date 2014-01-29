@@ -172,4 +172,8 @@ footer h5.subheader {
  .main-points .icon.first {
     margin-top: 0;
   }
+  .top-bar-section li:not(.has-form) a:not(.button) {
+  line-height: 25px;
+  border-top:1px solid #444;
+  }
 }
