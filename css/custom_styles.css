@@ -55,8 +55,23 @@ div.home-image {
   margin-bottom: 30px;
   color:#5A557E;
 }
-.detailed-points i {
-  margin-right: 7px;
+.detailed-points .price {
+  margin-bottom: 30px;
+}
+.detailed-points h4 {
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+.detailed-points small {
+  font-size: 0.5em;
+}
+.detailed-points h4 span {
+  color:#5A557E;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.detailed-points h5 span {
+  vertical-align: text-bottom;
 }
 .white {
   color:white;
