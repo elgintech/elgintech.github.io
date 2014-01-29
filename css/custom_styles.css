@@ -146,10 +146,13 @@ footer a:hover {
   color:#BBB2FF;
   text-decoration: underline;
 }
-footer h5.subheader {
+footer h6.subheader {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #BBB;
+}
+footer ul {
+  font-size: 0.8125rem;
 }
 .copyright p {
   color:#BBB;
