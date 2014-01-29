@@ -1,5 +1,5 @@
 div.home-image {
-  background: url('../img/loft.jpg') right center no-repeat;
+  background: url('../img/coworking_space.jpg') center top no-repeat;
   background-size: cover;
   height: 475px;
   text-align: center;
@@ -22,16 +22,24 @@ div.home-image {
   color: rgba(255,255,255,0.3);
 }
 .learn-more a:hover .fa-circle {
+  -webkit-transition: color 200ms ease-in;
+  -moz-transition: color 200ms ease-in;
+  -ms-transition: color 200ms ease-in;
+  -o-transition: color 200ms ease-in;
+  transition: color 200ms ease-in;
+  color: #333333;
+}
+.learn-more a .fa-angle-down {
+  color:#B3ADDB;
+  font-weight: bold;
+}
+.learn-more a:hover .fa-angle-down {
   -webkit-transition: color 300ms ease-in;
   -moz-transition: color 300ms ease-in;
   -ms-transition: color 300ms ease-in;
   -o-transition: color 300ms ease-in;
   transition: color 300ms ease-in;
-  color: #5A557E;
-}
-.learn-more a .fa-angle-down {
-  color:white;
-  font-weight: bold;
+  color:#B3ADDB;
 }
 .main-points {
   background-color: #5A557E;
@@ -184,7 +192,7 @@ footer ul {
 
 @media only screen and (max-width: 40em) {
   div.home-image {
-    background: url('../img/loft.jpg') left top no-repeat;
+    background: url('../img/coworking_space.jpg') center top no-repeat;
     height: 450px;
     background-size: cover;
   }
