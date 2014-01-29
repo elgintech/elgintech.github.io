@@ -34,7 +34,7 @@ div.home-image {
   font-weight: bold;
 }
 .main-points {
-  background-color: rgba(90, 85, 126, 0.86);
+  background-color: #5A557E;
   padding: 20px;
 }
 .main-points .icon {
@@ -122,7 +122,7 @@ div.home-image {
   color: #5A557E;
 }
 .connect a {
-  color: rgba(90, 85, 126, 0.86);
+  color: #5A557E;
 }
 .connect a .icon {
   color:white;
