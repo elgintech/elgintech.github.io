@@ -48,20 +48,39 @@ font-size: 1.0625rem;
 .vcard {
   border:none;
 }
-.top-bar .name h1 a {
- font-size: 0.8125rem;
+.top-bar .name {
+  margin-left: 5px;
+}
+.top-bar .name h4 a {
+ font-size: 1.5rem;
  text-transform: uppercase;
  letter-spacing: 2px;
  color:#325180;
  font-weight: bold;
 }
-.top-bar .name h1 a:hover {
- font-size: 0.8125rem;
+.top-bar .name h4 a:hover {
  text-transform: uppercase;
  letter-spacing: 2px;
- color:#325180;
+ color:#002255;
  font-weight: bold;
 }
 .top-bar .toggle-topbar.menu-icon a {
   color:#325180;
+}
+.top-bar .toggle-topbar.menu-icon {
+  color:#325180;
+}
+.top-bar .toggle-topbar.menu-icon a::after {
+content: "";
+position: absolute;
+right: 0;
+display: block;
+width: 16px;
+top: 0;
+height: 0;
+-webkit-box-shadow: 0 10px 0 1px #325180, 0 16px 0 1px #325180, 0 22px 0 1px #325180;
+box-shadow: 0 10px 0 1px #325180, 0 16px 0 1px #325180, 0 22px 0 1px #325180;
+}
+.top-bar.expanded .title-area {
+background: white;
 }
