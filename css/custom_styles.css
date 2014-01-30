@@ -48,6 +48,16 @@ h2.uvp {
   margin: 20px 0;
   text-align: center;
 }
+.main-points .icon-title {
+  letter-spacing: 3px;
+  font-size:1.5rem;
+  font-weight: 300;
+}
+.main-points .icon-text {
+  letter-spacing: 2px;
+  font-size: 0.825rem;
+  font-weight: 300;
+}
 .icon-title {
   font-weight: bold;
   text-transform: uppercase;
