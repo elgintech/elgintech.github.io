@@ -6,12 +6,12 @@
 }
 .top-bar {
 overflow: hidden;
-height: 75px;
-line-height: 75px;
+height: 85px;
+line-height: 85px;
 background-color: white;
 }
 .top-bar-section li:not(.has-form) a:not(.button) {
-line-height: 75px;
+line-height: 85px;
 }
 .top-bar-section ul li > a {
 font-size: 0.8125rem;
@@ -39,10 +39,10 @@ letter-spacing: 2px;
 
 }
 .top-bar .name {
-height: 75px;
+height: 85px;
 }
 .top-bar .name h1 {
-line-height: 75px;
+line-height: 85px;
 font-size: 1.0625rem;
 }
 .vcard {
@@ -51,16 +51,8 @@ font-size: 1.0625rem;
 .top-bar .name {
   margin-left: 5px;
 }
-.top-bar .name h4 a {
- font-size: 1.5rem;
- text-transform: uppercase;
- letter-spacing: 2px;
- color:#325180;
-}
-.top-bar .name h4 a:hover {
- text-transform: uppercase;
- letter-spacing: 2px;
- color:#002255;
+.top-bar .name h4 a img {
+ margin:5px;
 }
 .top-bar .toggle-topbar.menu-icon a {
   color:#325180;
