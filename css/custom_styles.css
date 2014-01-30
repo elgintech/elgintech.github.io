@@ -108,6 +108,10 @@ h2.uvp {
   height:50px;
   max-height:50px;
 }
+.members img.rg-logo {
+  height: 62px;
+  max-height: 62px;
+}
 .email-form {
   padding:50px 0;
 }
