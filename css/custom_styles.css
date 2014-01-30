@@ -194,7 +194,7 @@ div.wrapper {
 ul.benefits {
   font-size: 0.825rem;
 }
-
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   h1.uvp {
     font-size: 3.8rem;
@@ -204,7 +204,7 @@ ul.benefits {
     font-size: 2.25rem;
   }
 }
-
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
   div.home-image {
     background: url('../img/coworking_space.jpg') center top no-repeat;
@@ -225,4 +225,14 @@ ul.benefits {
   line-height: 25px;
   border-top:1px solid #CCC;
   }
+}
+/* min-width 1921px, xlarge screens */
+@media only screen and (min-width: 120.063em) {
+ h1.uvp {
+   font-size: 4.0rem;
+   margin-top: 1.3em;
+ }
+ h2.uvp {
+   font-size: 2.7rem;
+ }
 }
