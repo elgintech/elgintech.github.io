@@ -179,6 +179,14 @@ footer ul {
   text-transform: uppercase;
 }
 
+/*Apply Styles*/
+div.wrapper {
+  margin:20px 0;
+}
+ul.benefits {
+  font-size: 0.825rem;
+}
+
 @media only screen and (max-width: 40em) {
   div.home-image {
     background: url('../img/coworking_space.jpg') center top no-repeat;

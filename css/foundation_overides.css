@@ -56,13 +56,11 @@ font-size: 1.0625rem;
  text-transform: uppercase;
  letter-spacing: 2px;
  color:#325180;
- font-weight: bold;
 }
 .top-bar .name h4 a:hover {
  text-transform: uppercase;
  letter-spacing: 2px;
  color:#002255;
- font-weight: bold;
 }
 .top-bar .toggle-topbar.menu-icon a {
   color:#325180;
