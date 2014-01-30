@@ -1,4 +1,6 @@
 .contain-to-grid {
+  background-color: white;
+  border-bottom: 1px solid #BBBBBB;
   opacity:0.96;
   filter:alpha(opacity=96); /* For IE8 and earlier */;
 }
@@ -6,6 +8,7 @@
 overflow: hidden;
 height: 75px;
 line-height: 75px;
+background-color: white;
 }
 .top-bar-section li:not(.has-form) a:not(.button) {
 line-height: 75px;
@@ -14,6 +17,11 @@ line-height: 75px;
 font-size: 0.8125rem;
 text-transform: uppercase;
 letter-spacing: 2px;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: white;
+  color:#325180;
+  font-weight: bold;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   -webkit-transition: color 300ms ease-in;
@@ -26,7 +34,8 @@ letter-spacing: 2px;
   -ms-transition: background 200ms ease-in;
   -o-transition: background 200ms ease-in;
   transition: background 200ms ease-in;
-  color:#B3ADDB;
+  background-color: #DDDDDD;
+  color:#002255;
 
 }
 .top-bar .name {
@@ -38,4 +47,21 @@ font-size: 1.0625rem;
 }
 .vcard {
   border:none;
+}
+.top-bar .name h1 a {
+ font-size: 0.8125rem;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ color:#325180;
+ font-weight: bold;
+}
+.top-bar .name h1 a:hover {
+ font-size: 0.8125rem;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ color:#325180;
+ font-weight: bold;
+}
+.top-bar .toggle-topbar.menu-icon a {
+  color:#325180;
 }
