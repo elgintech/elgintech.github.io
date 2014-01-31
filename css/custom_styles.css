@@ -143,6 +143,14 @@ h2.uvp {
 .connect a .icon {
   color:white;
 }
+.connect a:hover .fa-circle.mail{
+  -webkit-transition: color 200ms ease-in;
+  -moz-transition: color 200ms ease-in;
+  -ms-transition: color 200ms ease-in;
+  -o-transition: color 200ms ease-in;
+  transition: color 200ms ease-in;
+  color:#FFB800;
+}
 .connect a:hover .fa-circle.twitter{
   -webkit-transition: color 200ms ease-in;
   -moz-transition: color 200ms ease-in;
