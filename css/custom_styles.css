@@ -198,7 +198,6 @@ footer ul {
 }
 .meetup img {
   margin-top: 10px;
-  margin-bottom: 20px;
 }
 .copyright p {
   color:#BBB;
@@ -215,6 +214,11 @@ div.wrapper {
 }
 ul.benefits {
   font-size: 0.825rem;
+}
+
+/*events.html styles*/
+.calendar {
+  margin-top: 50px;
 }
 
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
