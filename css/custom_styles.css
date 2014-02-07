@@ -223,7 +223,7 @@ ul.benefits {
 /* Responsive iFrame */
 .responsive-iframe-container {
  position: relative;
- padding-bottom: 56.25%;
+ padding-bottom: 57%;
  padding-top: 30px;
  height: 0;
  overflow: hidden;
@@ -272,6 +272,10 @@ ul.benefits {
   }
   .members li {
     margin:20px 0;
+  }
+  .responsive-iframe-container {
+   position: relative;
+   padding-bottom: 100%;
   }
 }
 
