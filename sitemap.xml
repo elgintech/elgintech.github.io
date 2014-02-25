@@ -9,12 +9,15 @@
   <loc>http://elgintech.org/</loc>
 </url>
 <url>
-  <loc>http://elgintech.org/apply</loc>
+  <loc>http://elgintech.org/apply.html</loc>
 </url>
 <url>
-  <loc>http://elgintech.org/events</loc>
+  <loc>http://elgintech.org/events.html</loc>
 </url>
 <url>
-  <loc>http://elgintech.org/classes</loc>
+  <loc>http://elgintech.org/classes.html</loc>
+</url>
+<url>
+  <loc>http://elgintech.org/class-registration.html</loc>
 </url>
 </urlset>
