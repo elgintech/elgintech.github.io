@@ -35,7 +35,7 @@ $(document).ready(function() {
     }else{ jQuery('body').addClass('svg'); }
   //Show More / Show Less
   $('.show-links a').click(function(e){
-    $(this).parent().next('.show-more').toggle('medium');
+    $(this).parent().next('.show-more').slideToggle('slow');
     $(this).siblings().toggle();
     $(this).toggle();
     e.preventDefault();
