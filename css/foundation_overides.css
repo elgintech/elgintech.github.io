@@ -1,5 +1,5 @@
 .contain-to-grid {
-  background-color: white;
+  background-color: #FAFAFA;
   border-bottom: 1px solid #BBBBBB;
   opacity:0.96;
   filter:alpha(opacity=96); /* For IE8 and earlier */;
@@ -8,7 +8,7 @@
 overflow: hidden;
 height: 85px;
 line-height: 85px;
-background-color: white;
+background-color: #FAFAFA;
 }
 .top-bar-section li:not(.has-form) a:not(.button) {
 line-height: 85px;
@@ -19,7 +19,7 @@ text-transform: uppercase;
 letter-spacing: 2px;
 }
 .top-bar-section li:not(.has-form) a:not(.button) {
-  background-color: white;
+  background-color: #FAFAFA;
   color:#325180;
   font-weight: bold;
 }
@@ -72,5 +72,5 @@ height: 0;
 box-shadow: 0 10px 0 1px #325180, 0 16px 0 1px #325180, 0 22px 0 1px #325180;
 }
 .top-bar.expanded .title-area {
-background: white;
+background: #FAFAFA;
 }
