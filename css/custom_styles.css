@@ -5,6 +5,9 @@ div.home-image {
   text-align: center;
   position:relative;
 }
+.uvp {
+  text-shadow: 2px 2px #333;
+}
 h1.uvp {
   font-family: 'Oswald', sans-serif;
   color: white;
